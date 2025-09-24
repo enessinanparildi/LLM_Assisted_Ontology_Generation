@@ -1,0 +1,53 @@
+**General Understanding & Scope:**
+1.  What is the name of the threat actor described in this report?
+2.  What is the overall assessment of the threat actor's capabilities and sophistication?
+3.  What is the time frame of APT41's observed activity?
+4.  What are the primary motivations attributed to APT41?
+5.  What is the relationship between APT41's state-sponsored and financially motivated activities?
+6.  What other names or aliases are associated with APT41?
+7.  What is the geographic scope of APT41's operations?
+**Threat Actor Details:**
+8.  Is APT41 considered a state-sponsored actor? If so, which state?
+9.  What evidence supports the attribution of APT41 to a specific nation-state?
+10. What makes APT41 unique compared to other Chinese APT groups?
+11. What resources are available to APT41?
+12. How has APT41's targeting changed over time?
+13. How does APT41 balance different objectives simultaneously?
+**Targeting & Victims:**
+14. What industries are targeted by APT41?
+15. Which countries have been targeted by APT41?
+16. What is the rationale behind APT41's targeting of specific industries?
+17. How does APT41's targeting align with China's national policies and economic plans?
+18. What types of organizations within each industry are targeted (e.g., specific departments, roles)?
+19. What is the relationship between APT41's targeting and imminent events like M&A?
+20. What specific information is APT41 seeking from its targets?
+21. What is the impact of APT41's attacks on targeted organizations?
+22. What is the relationship between APT41 and pro-democracy dissidents in Hong Kong?
+**Tactics, Techniques, and Procedures (TTPs):**
+23. What malware families or specific tools are used by APT41?
+24. Does APT41 use non-public malware?
+25. What are the common attack vectors used by APT41 (e.g., phishing, supply chain compromise)?
+26. What supply chain compromises have been attributed to APT41?
+27. How does APT41 use compromised digital certificates?
+28. Does APT41 deploy bootkits?
+29. What tactics did APT41 develop from targeting video game production environments?
+30. What are the indicators of compromise (IOCs) associated with APT41 activity (e.g., file hashes, network addresses)?
+31. How does APT41 establish a foothold in targeting a particular region?
+**Motivations & Objectives:**
+32. What is the primary motivation behind APT41's financially motivated activities?
+33. What is the relationship between APT41's financially motivated activities and its state-sponsored activities?
+34. What strategic intelligence is APT41 collecting?
+35. What is the relationship between APT41 and intellectual property theft?
+36. What is the relationship between APT41 and reconnaissance and identifying dissidents?
+**Relationships & Connections:**
+37. What is the relationship between APT41 and GREF Team?
+38. What is the relationship between APT41 and other unnamed clusters?
+39. What is the relationship between APT41 and telecom companies?
+40. What is the relationship between APT41 and strategic business decisions?
+**Temporal Analysis:**
+41. How has APT41's activity evolved over time?
+42. When did APT41 begin targeting specific industries or countries?
+43. What were the key milestones in APT41's operational history?
+44. When did APT41 move toward strategic intelligence collection?
+45. When did APT41 begin carrying out espionage campaigns concurrently with financially motivated intrusions?
+46. When did APT41's activities include a series of supply chain compromises?
