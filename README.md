@@ -1,6 +1,6 @@
 # LLM_Assisted_Ontology_Generation
 
-An automated pipeline for generating domain-specific ontologies from PDF documents using Large Language Models and the Ontogenia methodology.
+An automated pipeline for generating domain-specific ontologies from PDF documents using Large Language Models and the Ontogenia methodology. For the competency question (CQ) generation component, we referred to "Large Language Models for Competency Question Generation in Ontology Engineering" (Arxiv, 2024). In addition, we drew on the work presented in "Prompting Techniques for Ontology Engineering" (ESWC, 2024), which outlines an effective prompting strategy called Ontogenia for ontology construction.
 
 ## Overview
 
