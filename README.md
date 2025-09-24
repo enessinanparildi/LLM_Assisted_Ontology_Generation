@@ -243,7 +243,7 @@ For questions, issues, or feature requests:
 2. Create a new issue with detailed description
 3. Include relevant error messages and configuration details
 
-## 🔮 Roadmap
+## Roadmap
 
 - [ ] Support for multiple PDF formats
 - [ ] Integration with additional LLM providers
