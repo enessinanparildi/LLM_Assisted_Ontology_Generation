@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/apt41#"
+     xml:base="http://www.semanticweb.org/ontologies/apt41#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/apt41"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#APTGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#APTGroup">
+        <rdfs:label>APT Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#ActivityType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#ActivityType">
+        <rdfs:label>Activity Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Alias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Alias">
+        <rdfs:label>Alias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Attack">
+        <rdfs:label>Attack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Country">
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#DataSought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#DataSought">
+        <rdfs:label>Data Sought</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#DigitalCertificate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#DigitalCertificate">
+        <rdfs:label>Digital Certificate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Dissident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Dissident">
+        <rdfs:label>Dissident</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#EntryPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#EntryPoint">
+        <rdfs:label>Entry Point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#FinancialGain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#FinancialGain">
+        <rdfs:label>Financial Gain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#GeopoliticalEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#GeopoliticalEvent">
+        <rdfs:label>Geopolitical Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#IOC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#IOC">
+        <rdfs:label>IOC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Industry">
+        <rdfs:label>Industry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#IntelligenceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#IntelligenceType">
+        <rdfs:label>Intelligence Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Malware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Malware">
+        <rdfs:label>Malware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#MitigationStrategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#MitigationStrategy">
+        <rdfs:label>Mitigation Strategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Motivation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Motivation">
+        <rdfs:label>Motivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Objective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Objective">
+        <rdfs:label>Objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Organization">
+        <rdfs:label>Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#PoliticalEconomicEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#PoliticalEconomicEvent">
+        <rdfs:label>Political Economic Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#ReconnaissanceTarget -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#ReconnaissanceTarget">
+        <rdfs:label>Reconnaissance Target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#TTP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#TTP">
+        <rdfs:label>TTP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Target -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Target">
+        <rdfs:label>Target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Timeline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Timeline">
+        <rdfs:label>Timeline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/apt41#Tool">
+        <rdfs:label>Tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#alignsWithPolicy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#alignsWithPolicy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#Target"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#PoliticalEconomicEvent"/>
+        <rdfs:label>aligns with policy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#associatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#associatedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Alias"/>
+        <rdfs:label>associated with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#compromises -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#compromises">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#DigitalCertificate"/>
+        <rdfs:label>compromises</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#conducts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#conducts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#ReconnaissanceTarget"/>
+        <rdfs:label>conducts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#detectableBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#detectableBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#IOC"/>
+        <rdfs:label>detectable by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#exploits -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#exploits">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#EntryPoint"/>
+        <rdfs:label>exploits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#gains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#gains">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#FinancialGain"/>
+        <rdfs:label>gains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasActivity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#ActivityType"/>
+        <rdfs:label>has activity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasDependency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasDependency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:label>has dependency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasDuration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#Attack"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Timeline"/>
+        <rdfs:label>has duration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasImpactOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasImpactOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Organization"/>
+        <rdfs:label>has impact on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasIntelligenceTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasIntelligenceTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Dissident"/>
+        <rdfs:label>has intelligence target</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasMotivation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasMotivation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Motivation"/>
+        <rdfs:label>has motivation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasObjective -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasObjective">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Objective"/>
+        <rdfs:label>has objective</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasRelationshipWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasRelationshipWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:label>has relationship with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#hasTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#hasTarget">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Target"/>
+        <rdfs:label>has target</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#implements -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#implements">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#MitigationStrategy"/>
+        <rdfs:label>implements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#inTargetedCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#inTargetedCountry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#Target"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Country"/>
+        <rdfs:label>in targeted country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#inTargetedIndustry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#inTargetedIndustry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#Target"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Industry"/>
+        <rdfs:label>in targeted industry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#isTargetedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#isTargetedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#Organization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:label>is targeted by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#maintainsPersistence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#maintainsPersistence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#TTP"/>
+        <rdfs:label>maintains persistence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#relatedToEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#relatedToEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#GeopoliticalEvent"/>
+        <rdfs:label>related to event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#seeks -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#seeks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#DataSought"/>
+        <rdfs:label>seeks</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#supportsInitiative -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#supportsInitiative">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#PoliticalEconomicEvent"/>
+        <rdfs:label>supports initiative</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Malware"/>
+        <rdfs:label>uses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#usesTool -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#usesTool">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/apt41#Tool"/>
+        <rdfs:label>uses tool</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#assessment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#assessment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>assessment</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#TTP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#exfiltrationMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#exfiltrationMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#TTP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>exfiltration method</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#timelineDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/apt41#timelineDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/apt41#Timeline"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>timeline description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Restrictions
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#APTGroupHasAtLeastOneName -->
+
+    <owl:Restriction rdf:about="http://www.semanticweb.org/ontologies/apt41#APTGroupHasAtLeastOneName">
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/apt41#name"/>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:onClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:Restriction>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/apt41#APT41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/apt41#APT41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/apt41#APTGroup"/>
+        <name>APT41</name>
+    </owl:NamedIndividual>
+</rdf:RDF>

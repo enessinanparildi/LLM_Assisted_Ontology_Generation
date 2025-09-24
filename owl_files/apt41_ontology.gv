@@ -1,0 +1,54 @@
+// APT41 Ontology
+digraph {
+	APTGroup
+	ActivityType
+	Alias
+	Attack
+	Country
+	DataSought
+	DigitalCertificate
+	Dissident
+	EntryPoint
+	FinancialGain
+	GeopoliticalEvent
+	IOC
+	Industry
+	IntelligenceType
+	Malware
+	MitigationStrategy
+	Motivation
+	Objective
+	Organization
+	PoliticalEconomicEvent
+	ReconnaissanceTarget
+	TTP
+	Target
+	Timeline
+	Tool
+	Target -> PoliticalEconomicEvent [label=alignsWithPolicy]
+	APTGroup -> Alias [label=associatedWith]
+	APTGroup -> DigitalCertificate [label=compromises]
+	APTGroup -> ReconnaissanceTarget [label=conducts]
+	APTGroup -> IOC [label=detectableBy]
+	APTGroup -> EntryPoint [label=exploits]
+	APTGroup -> FinancialGain [label=gains]
+	APTGroup -> ActivityType [label=hasActivity]
+	APTGroup -> APTGroup [label=hasDependency]
+	Attack -> Timeline [label=hasDuration]
+	APTGroup -> Organization [label=hasImpactOn]
+	APTGroup -> Dissident [label=hasIntelligenceTarget]
+	APTGroup -> Motivation [label=hasMotivation]
+	APTGroup -> Objective [label=hasObjective]
+	APTGroup -> APTGroup [label=hasRelationshipWith]
+	APTGroup -> Target [label=hasTarget]
+	APTGroup -> MitigationStrategy [label=implements]
+	Target -> Country [label=inTargetedCountry]
+	Target -> Industry [label=inTargetedIndustry]
+	Organization -> APTGroup [label=isTargetedBy]
+	APTGroup -> TTP [label=maintainsPersistence]
+	APTGroup -> GeopoliticalEvent [label=relatedToEvent]
+	APTGroup -> DataSought [label=seeks]
+	APTGroup -> PoliticalEconomicEvent [label=supportsInitiative]
+	APTGroup -> Malware [label=uses]
+	APTGroup -> Tool [label=usesTool]
+}
