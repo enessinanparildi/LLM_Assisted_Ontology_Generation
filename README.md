@@ -2,6 +2,8 @@
 
 An automated pipeline for generating domain-specific ontologies from PDF documents using Large Language Models and the Ontogenia methodology. For the competency question (CQ) generation component, we referred to "Large Language Models for Competency Question Generation in Ontology Engineering" (Arxiv, 2024). In addition, we drew on the work presented in "Prompting Techniques for Ontology Engineering" (ESWC, 2024), which outlines an effective prompting strategy called Ontogenia for ontology construction.
 
+This project is still in its early stages. More comprehensive ontology evaluation metrics are required to validate the proposed methodology. Moreover, the methodology needs to be tested on a larger set of raw text instances.
+
 ## Overview
 
 This project transforms unstructured PDF content into structured OWL ontologies through a multi-stage process:
