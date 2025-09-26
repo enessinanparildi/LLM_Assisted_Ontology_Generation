@@ -1,6 +1,6 @@
 # LLM_Assisted_Ontology_Generation
 
-An automated pipeline for generating domain-specific ontologies from PDF documents using Large Language Models and the Ontogenia methodology. For the competency question (CQ) generation component, we referred to "Large Language Models for Competency Question Generation in Ontology Engineering" (Arxiv, 2024). In addition, we drew on the work presented in "Prompting Techniques for Ontology Engineering" (ESWC, 2024), which outlines an effective prompting strategy called Ontogenia for ontology construction.
+An automated pipeline for generating domain-specific ontologies from PDF documents using Large Language Models and the Ontogenia methodology. For the competency question (CQ) generation component, we referred to "A rag approach for generating competency questions in ontology engineering. (Pan et al., 2024)". In addition, we drew on the work presented in "Ontogenia: Ontology generation with metacognitive prompting in large language models." (Lippolis et al., 2024), which outlines an effective prompting strategy called Ontogenia for ontology construction.
 
 This project is still in its early stages. More comprehensive ontology evaluation metrics are required to validate the proposed methodology. Moreover, the methodology needs to be tested on a larger set of raw text instances.
 
@@ -230,3 +230,10 @@ The system includes multiple validation layers:
 - [ ] Integration with ontology repositories
 
 ---
+## Citations
+- Pan, Xueli, et al. "A rag approach for generating competency questions in ontology engineering." Research Conference on Metadata and Semantics Research. Cham: Springer Nature Switzerland, 2024.
+- Lippolis, Anna Sofia, et al. "Ontogenia: Ontology generation with metacognitive prompting in large language models." European Semantic Web Conference. Cham: Springer Nature Switzerland, 2024.
+
+
+
+
