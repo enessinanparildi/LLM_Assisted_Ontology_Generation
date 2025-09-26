@@ -222,12 +222,9 @@ The system includes multiple validation layers:
 
 ## Roadmap
 
-- [ ] Support for multiple PDF formats
-- [ ] Integration with additional LLM providers
-- [ ] Interactive ontology editing interface
-- [ ] Batch processing capabilities
-- [ ] Export to different ontology formats (TTL, N3, etc.)
-- [ ] Integration with ontology repositories
+- Interactive ontology editing interface
+- Export to different ontology formats (TTL, N3, etc.)
+- Integration with ontology repositories
 
 ---
 ## Citations
